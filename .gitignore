@@ -31,5 +31,5 @@ override.tf.json
 
 # Ignore CLI configuration files
 .terraformr
-*terraform.*
+#*terraform.*
 .terraform*
