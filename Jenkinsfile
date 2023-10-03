@@ -53,7 +53,7 @@ pipeline {
         }       
         stage('Terraform Apply') {
             when {
-                expression { currentBuild.rawBuild.branchIs('main') }
+                expression { currentBuild.rawBuild.branchIs('master') }
             }
             steps {
                 echo 'Terraform Apply'
